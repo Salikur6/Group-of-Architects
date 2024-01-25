@@ -131,8 +131,6 @@ article {
 }
 
 
-
-
 /* responsive for tablets -------------------- */
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -273,10 +271,10 @@ footer {
 }
 
 
-/* responsive for desktop -------------------- */
+/* responsive for desktops -------------------- */
 
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
     .container{
      width: 100%;
     }
@@ -410,5 +408,39 @@ footer {
      margin: 100px 0;
  }
  
+    
+ }
+
+
+/* responsive for large desktops -------------------- */
+
+ @media only screen and (min-width: 999px) and (max-width: 1440px) {
+    .container{
+     width: 100%;
+     padding: 20px;
+    }
+ 
+ 
+    /* features section style ----------------- */
+ 
+    
+ 
+ 
+ 
+    /* love-enjoy section style -------------------- */
+ 
+ 
+ 
+    /* some-facts section style ------------------- */
+ 
+
+ 
+    /* our-sponsors section style -------------------- */
+ 
+
+ 
+ /* footer section ----------------------------- */
+ 
+
     
  }
