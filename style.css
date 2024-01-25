@@ -249,3 +249,17 @@ article p {
     font-weight: 600;
     color: #727272;
 }
+
+/* our sponsors section style -------------- */
+
+.our-sponsors h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sponsor-icons {
+    display: flex;
+    column-gap: 155px;
+    margin-top: 50px;
+}
