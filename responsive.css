@@ -150,11 +150,11 @@ article {
 
    .nav ul {
     margin: 30px;
+    gap: 30px;
    }
 
    .nav ul li{
     margin-right: 0;
-    gap: 30px;
    }
 
    .banner-headline {
@@ -271,3 +271,144 @@ footer {
 
    
 }
+
+
+/* responsive for desktop -------------------- */
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .container{
+     width: 100%;
+    }
+ 
+    .line-brake {
+     display: inline;
+ }
+ 
+    nav.nav {
+     flex-direction: column;
+    }
+ 
+    .nav ul {
+     margin: 30px;
+     gap: 30px;
+    }
+ 
+    .nav ul li{
+     margin-right: 0;
+    }
+ 
+    .banner-headline {
+     margin-top: 50px;
+    }
+ 
+    .banner-headline h1 {
+     font-size: 45px;
+     margin-bottom: 30px;
+    }
+ 
+    .banner-headline p {
+     padding: 0 20px;
+    }
+ 
+    .banner-img img {
+     height: 100%;
+    }
+ 
+    /* features section style ----------------- */
+ 
+    .features{
+     flex-direction: column;
+    }
+ 
+    .features-gellary {
+     gap: 10px;
+     margin: 0 20px;
+    }
+ 
+    
+    .features-gellary .feature img {
+     width: 100%;
+    }
+ 
+ 
+    .features-headline {
+     margin: 40px 10px 0 30px;
+    }
+ 
+ 
+ 
+    /* love-enjoy section style -------------------- */
+ 
+    .love-enjoy {
+     grid-template-columns: 1fr;
+    }
+ 
+    .articles h1 {
+     margin-left: 15px;
+    }
+ 
+    .articles p {
+     margin: 0 20px 31px 20px;
+    }
+ 
+    article {
+     padding: 30px 19px 20px 29px;
+     margin: 25px;
+    }
+ 
+    .love-enjoy-img img {
+     height: 650px;
+     padding: 20px;
+     border-radius: 50px;
+    }
+ 
+    .experience-btn button {
+     font-size: 45px;
+     left: 15%;
+     bottom: 50%;
+    }
+ 
+ 
+ 
+    /* some-facts section style ------------------- */
+ 
+    .some-facts {
+     margin-bottom: 100px;
+    }
+ 
+    .some-facts h1 {
+     text-align: center;
+    }
+ 
+    .some-facts p {
+     margin: 0 20px;
+    }
+ 
+    .facts {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 30px;
+     margin: 50px 20px;
+    }
+ 
+    /* our-sponsors section style -------------------- */
+ 
+    .our-sponsors > p {
+     margin: 0 20px;
+    }
+    .sponsor-icons {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 50px;
+     justify-items: center;
+    }
+ 
+ /* footer section ----------------------------- */
+ 
+ footer {
+     margin: 100px 0;
+ }
+ 
+    
+ }
